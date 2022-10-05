@@ -1,0 +1,47 @@
+.App {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  gap: 5px;
+  height: 100vh;
+  text-align: center;
+}
+
+header,
+footer,
+aside,
+article {
+  border-style: dashed;
+  padding: 5px;
+  font-size: 1em;
+}
+
+header,
+footer {
+  grid-column: 1 / 4;
+  background-color: rgb(136, 213, 239);
+}
+
+aside {
+  background-color: rgb(73, 153, 73);
+}
+
+article {
+  grid-column: 2 / 3;
+  background-color: rgb(245, 178, 189);
+}
+
+img {
+  height: 32px;
+  width: 32px;
+}
+
+/* Come back to button */
+button {
+  font-size: 1em;
+}
+
+.section-title {
+  font-size: xx-large;
+  font-weight: bold;
+}
